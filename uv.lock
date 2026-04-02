@@ -164,7 +164,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "fastapi", extras = ["standard"], specifier = ">=0.135.2" }]
+requires-dist = [{ name = "fastapi", extras = ["standard"], specifier = ">=0.115.0" }]
 
 [[package]]
 name = "fastar"

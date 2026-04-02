@@ -5,8 +5,8 @@ description = "This is my fastapi practice app"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi[standard]>=0.135.2",
+    "fastapi[standard]>=0.115.0",
 ]
-[tool.fastapi-cli]
-entrypoint = "backend.main:app"
 
+[tool.fastapi-cli]
+app = "backend.main:app"
