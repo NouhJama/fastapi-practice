@@ -3,10 +3,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get("/")
-def health_check():
-    return {"status": "ok"}
-
 
 @app.get("/items/{item_id}")
 def read_items(item_id: int):
