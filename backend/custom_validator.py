@@ -17,7 +17,7 @@ data = {
     "isbn-9781439512982": "Isaac Asimov: The Complete Stories, Vol. 2",
 }
 
-
+# Custom validator function to check the format of the ID
 def check_valid_id(id: str):
     if not id.startswith(("isbn-", "imdb-")):
         raise ValueError('Invalid ID format, it must start with "isbn-" or "imdb-"')

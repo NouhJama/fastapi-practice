@@ -5,6 +5,7 @@ description = "This is my fastapi practice app"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "email-validator>=2.3.0",
     "fastapi[standard]>=0.115.0",
 ]
 
