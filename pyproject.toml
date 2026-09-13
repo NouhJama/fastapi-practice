@@ -2,7 +2,7 @@
 <<<<<<< HEAD
 name = "awesome-fastapi"
 version = "0.1.0"
-description = "Add your description here"
+description = "This project is for practicing fastapi"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
