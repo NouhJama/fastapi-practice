@@ -1,31 +1,17 @@
 [project]
-<<<<<<< HEAD
 name = "awesome-fastapi"
 version = "0.1.0"
 description = "This project is for practicing fastapi"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "fastapi[standard]>=0.141.1",
-]
-
-[project.scripts]
-awesome-fastapi = "awesome_fastapi:main"
-
-[build-system]
-requires = ["uv_build>=0.12.13,<0.13.0"]
-build-backend = "uv_build"
-=======
-name = "fastapi-practice"
-version = "0.1.0"
-description = "This is my fastapi practice app"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
     "email-validator>=2.3.0",
-    "fastapi[standard]>=0.115.0",
+    "fastapi[standard]>=0.141.1",
 ]
 
 [tool.fastapi-cli]
 app = "backend.main:app"
->>>>>>> 82f1c0480f04e590d0cae27e93c573cb92bf4ad6
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
