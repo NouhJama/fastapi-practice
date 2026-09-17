@@ -11,6 +11,8 @@ while the `UserIn` model includes all fields, including sensitive ones like `pas
  ensuring that sensitive information is not exposed in the API response.
 - With this, we get tooling support, from editors and mypy as this code is correct in terms of types, 
 but we also get the data filtering from FastAPI. 
+-Now, for FastAPI, it will see the return type and make sure that what you return includes only the fields
+ that are declared in the type
 """
 
 class BaseUser(BaseModel):
