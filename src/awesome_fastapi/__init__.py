@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from awesome-fastapi!")
+"""Awesome FastAPI package."""
